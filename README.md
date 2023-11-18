@@ -45,6 +45,16 @@ http://127.0.0.1:8000/
 
 
 
+cd frontend
+cd search_engine
+yarn start
+http://localhost:3000
+
+
+
+
+
+
 pip3 install Django==4.0
 python3 -m django
 python3 -m django --version
