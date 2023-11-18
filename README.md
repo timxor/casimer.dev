@@ -118,7 +118,7 @@ http://localhost:3000
 
 
 
-
+## frontend
 
 
 - adding react router
@@ -139,6 +139,45 @@ http://localhost:3000
     - import Home from "./pages/Home";
   - yarn start
   - http://localhost:3000/
+
+
+- configuring cors
+  - enable cors with django rest, install django-cors-headers
+    - source venv/bin/activate
+    - pip install django-cors-headers
+  - update settings.py in the INSTALLED_APPS
+    - add corsheaders to INSTALLED_APPS
+    - update middleware
+      - corsheaders.middleware.CorsMiddleware
+      - django.middleware.common.CommonMiddleware
+    - append to end of settings.py
+      - CORS_ALLOWED_ORIGINS = [
+          "http://localhost:3000",
+          "http://127.0.0.1:3000"
+        ]
+  - enter this into chrome dev console
+    - fetch("http://127.0.0.1:8000/search/")
+    - should work now
+    
+  
+
+- save packages to requirements.txt
+  - pip freeze > requirements.txt
+- install packages from requirements.txt
+  - pip install -r requirements.txt
+
+
+
+- virtual environment
+  - venv
+    - install virtualenv on computer
+      - python3 -m pip install --user virtualenv
+        - define virtual env for project
+          - python3 -m venv venv
+            - activate virtual env
+              - source venv/bin/activate
+                - deactivate
+
 
 
 
