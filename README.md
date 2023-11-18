@@ -55,6 +55,74 @@ http://localhost:3000
 
 
 
+- django apps
+  - create a new app
+    - python3 manage.py startapp my_app_name
+    - 
+
+
+
+- create a new app
+  - run command python3 manage.py startapp search_api
+    - add the app to our main project
+      - edit search_engine/settings.py
+        - section INSTALLED_APPS
+          - append search_api
+    - run the server
+      - python3 manage.py runserver
+
+
+
+- book
+  - django 4 for the impatient
+  - full stack django and react
+
+
+- managing django urls
+  - search_engine/urls.py
+    - localhost:8000/hello
+    - localhost:8000/admin
+    - http://127.0.0.1:8000/admin
+    - http://localhost:8000/admin/login/?next=/admin/
+
+
+- creating a custom path for a home page
+  - edit urls.py
+    - add import
+      - from search_api import views as searchApiViews
+    - add url pattern
+      - path('', searchApiViews.home),
+    - add import to search_api/views.py
+      - from django.http import HttpResponse
+    - add def home to search_api/views.py
+      - def home(request)
+        - return HttpResponse('<h1>Welcome to Home Page</h1>')
+  - now go to
+    - http://localhost:8000/
+      - you see the home page
+
+
+
+- search page
+  - http://localhost:8000/search/
+  - edit search_api/urls.py and 
+  - search_api/views.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 pip3 install Django==4.0
 python3 -m django
 python3 -m django --version
