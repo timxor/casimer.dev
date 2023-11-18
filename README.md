@@ -181,6 +181,31 @@ http://localhost:3000
 
 
 
+- configuring the database
+  - postgres configuration
+    - pip install psycopg2-binary
+  - create a database 
+    - createdb search_engine
+  - connect to specific database
+    - psql -d search_engine
+
+
+- set PGDATA database directory env variable for postgres 
+  - export PGDATA=/usr/local/var/postgres
+
+
+- psql version 14, server version 16
+  - brew upgrade postgresql
+    - postgresql@14 14.10 already installed
+  - brew unlink postgresql@14 && brew link postgresql@14
+
+
+
+
+
+
+
+
 
 pip3 install Django==4.0
 python3 -m django
