@@ -33,7 +33,17 @@ https://learning.oreilly.com/library/view/full-stack-django/9781803242972/B18221
 
 
 
-cd /Users/tim/code/casimer.dev/backend
+cd /Users/tim/code/casimer.dev
+cd backend
+cd search_engine
+python3 -m venv venv
+source venv/bin/activate
+pip install django
+python manage.py runserver
+http://127.0.0.1:8000/
+
+
+
 
 pip3 install Django==4.0
 python3 -m django
