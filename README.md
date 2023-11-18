@@ -114,11 +114,24 @@ http://localhost:3000
 
 
 
+- adding react router
+  - yarn add react-router-dom@6
+  - add import to src/index.js
+    - import { BrowserRouter } from "react-router-dom";
 
 
+- adding react bootstrap
+  - yarn add react-bootstrap bootstrap
+    - add import to index.js
+      - import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-
+- creating the home page
+  - create /pages/Home.jsx
+  - add new page to App.js
+    - import Home from "./pages/Home";
+  - yarn start
+  - http://localhost:3000/
 
 
 
