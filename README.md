@@ -10,3 +10,21 @@ cloudflare - casimer.dev - dns
 https://dash.cloudflare.com/edb8f15640d1c39f5dbffa9abeb05ecf/casimer.dev
 
 
+
+search engine design
+- backend
+  - django app
+- frontend
+  - react app
+
+
+
+
+
+
+
+
+
+
+
+
