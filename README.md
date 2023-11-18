@@ -1,5 +1,12 @@
 # casimer.dev
 
+
+- books
+  - django 4 for the impatient
+  - full stack django and react
+
+  
+
 github - casimer.dev - repo
 https://github.com/timxor/casimer.dev
 
