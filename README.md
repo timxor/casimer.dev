@@ -1,5 +1,37 @@
 # casimer.dev
 
+casimer.dev search engine
+
+
+### start the backend server
+
+```
+cd backend/search_engine
+./start_server.sh
+```
+
+then open http://127.0.0.1:8000 in your web browser.
+
+
+or run:
+
+``` 
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python manage.py runserver
+```
+
+### start the frontend server
+
+```
+cd frontend/search_engine
+yarn start
+open: http://localhost:3000
+```
+
+
+
 
 - books
   - django 4 for the impatient
@@ -52,8 +84,7 @@ http://127.0.0.1:8000/
 
 
 
-cd frontend
-cd search_engine
+cd frontend/search_engine
 yarn start
 http://localhost:3000
 
