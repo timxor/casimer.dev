@@ -1,15 +1,15 @@
-# casimer.dev
-
-casimer.dev search engine
+# casimer.dev - search engine
 
 
-### start the backend server
+## start the backend server
+
+Run:
 
 ```
 ./start_backend_server.sh
 ```
 
-or run:
+Or run:
 
 ``` 
 cd backend/search_engine
@@ -19,46 +19,35 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 
-then open http://127.0.0.1:8000 in your web browser.
+Then open http://127.0.0.1:8000 in your web browser.
 
 
-### start the frontend server
+
+
+## start the frontend server
+
+Run:
+
+```
+./start_frontend_server.sh
+```
+
+Or run:
 
 ```
 cd frontend/search_engine
+yarn install
 yarn start
-open: http://localhost:3000
 ```
 
-
-
-
-- books
-  - django 4 for the impatient
-  - full stack django and react
-
-  
-
-github - casimer.dev - repo
-https://github.com/timxor/casimer.dev
-
-heroku - casimer-dev-app - app
-https://dashboard.heroku.com/apps/casimer-dev-app/deploy/heroku-git
-
-cloudflare - casimer.dev - dns
-https://dash.cloudflare.com/edb8f15640d1c39f5dbffa9abeb05ecf/casimer.dev
-
-linkedin learning - building reach and django apps
-https://www.linkedin.com/learning/building-react-and-django-apps/serving-react-code-through-django-s-static-files?u=58684281
-
-
-
-https://learning.oreilly.com/library/view/full-stack-django/9781803242972/B18221_06.xhtml#_idParaDest-125
+Then open http://127.0.0.1:3000 in your web browser.
 
 
 
 
 ## search engine design
+
+
 -backend
   - django app
 - frontend
@@ -70,6 +59,7 @@ https://learning.oreilly.com/library/view/full-stack-django/9781803242972/B18221
       - Details
 
 
+### notes
 
 
 cd /Users/tim/code/casimer.dev
@@ -313,6 +303,28 @@ connecting a react component to a service
 
 
 
+
+#### books
+
+- books
+  - django 4 for the impatient
+  - full stack django and react
+
+#### resources
+
+github - casimer.dev - repo
+https://github.com/timxor/casimer.dev
+
+heroku - casimer-dev-app - app
+https://dashboard.heroku.com/apps/casimer-dev-app/deploy/heroku-git
+
+cloudflare - casimer.dev - dns
+https://dash.cloudflare.com/edb8f15640d1c39f5dbffa9abeb05ecf/casimer.dev
+
+linkedin learning - building reach and django apps
+https://www.linkedin.com/learning/building-react-and-django-apps/serving-react-code-through-django-s-static-files?u=58684281
+
+https://learning.oreilly.com/library/view/full-stack-django/9781803242972/B18221_06.xhtml#_idParaDest-125
 
 
 
