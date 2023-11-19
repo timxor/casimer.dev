@@ -6,21 +6,21 @@ casimer.dev search engine
 ### start the backend server
 
 ```
-cd backend/search_engine
-./start_server.sh
+./start_backend_server.sh
 ```
-
-then open http://127.0.0.1:8000 in your web browser.
-
 
 or run:
 
 ``` 
+cd backend/search_engine
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 python manage.py runserver
 ```
+
+then open http://127.0.0.1:8000 in your web browser.
+
 
 ### start the frontend server
 
