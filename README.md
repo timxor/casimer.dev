@@ -62,6 +62,10 @@ Then open http://127.0.0.1:3000 in your web browser.
 ### notes
 
 
+insomnia rest http client
+
+
+
 cd /Users/tim/code/casimer.dev
 cd backend
 cd search_engine
@@ -309,6 +313,7 @@ connecting a react component to a service
 - books
   - django 4 for the impatient
   - full stack django and react
+    - https://github.com/PacktPublishing/Full-stack-Django-and-React
 
 #### resources
 
