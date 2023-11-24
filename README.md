@@ -312,8 +312,12 @@ connecting a react component to a service
 
 - books
   - django 4 for the impatient
+    - https://github.com/PacktPublishing/Django-4-for-the-Impatient/tree/main
   - full stack django and react
     - https://github.com/PacktPublishing/Full-stack-Django-and-React
+
+
+
 
 #### resources
 
